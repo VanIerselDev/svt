@@ -1,0 +1,41 @@
+Oef 1:
+
+=ALS(
+    AANTAL(D6:D17)>=0;
+    SOM(D6:D17);
+    ""
+)
+
+Oef 2:
+
+=ALS(
+    AANTAL(C7:C11)>=0;
+    SOM(C7:C11);
+    ""
+)
+
+Oef 3:
+
+=ALS(
+    ISGETAL(D13);
+    ALS(
+        D13>40000;
+        "Overschreden";
+        ""
+    );
+    "Check of je in D13 een getal hebt staan"
+)
+
+Oef 5:
+
+=MAX(D5:D19)
+
+Oef 6:
+
+=VERT.ZOEKEN(B2:B11;C17;D2:D11)
+
+Oef 7:
+
+
+
+
